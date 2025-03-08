@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Skranji:wght@400;700&family=Varela+Round&display=swap');
+
+.pie{
+    margin-top: 20px;
+    width: 100%;
+    background-color:#857978 ;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pie-contenedor{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+}
+
+.columna h2 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.columna p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.columna1{
+    margin-bottom:85px;
+}
+
+
