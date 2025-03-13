@@ -54,3 +54,47 @@
     margin-top: 0;
 }
 
+@media (max-width: 600px) {
+    .cuerpo-seccion3-contenedor{
+        /* border: 1px solid black; */
+        width: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .cuerpo-seccion3-contenedor-letras{
+        /* border: 1px solid black; */
+        width: 100%;
+
+        
+    }
+
+    .cuerpo-seccion3-contenedor-letras-titulo{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 0;
+        text-align: center;
+        
+    }
+
+    .cuerpo-seccion3-contenedor-letras-titulo-descripcion{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .cuerpo-seccion3-contenedor-imagen{
+        width: 95%;
+    }
+}
+

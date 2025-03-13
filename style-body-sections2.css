@@ -12,3 +12,10 @@
 .cuerpo-seccion2-contenedor-imagen{
     width: 55%;
 }
+
+@media (max-width: 600px) {
+    .cuerpo-seccion2-contenedor-imagen{
+        width: 380px;
+        /* height: 116px; */
+    }
+}
