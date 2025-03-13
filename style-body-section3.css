@@ -36,7 +36,7 @@
 }
 
 .cuerpo-seccion3-contenedor-letras-titulo{
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 3vw;
     font-weight: 700;
@@ -46,9 +46,10 @@
 }
 
 .cuerpo-seccion3-contenedor-letras-titulo-descripcion{
-    color: white;
+    color: #272D38;
+    width: 392px;
     font-family: "Inter", sans-serif;
-    font-size: 1.3vw;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1;
     margin-top: 0;
@@ -59,7 +60,7 @@
         /* border: 1px solid black; */
         width: 95%;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 50px;
@@ -73,7 +74,7 @@
     }
 
     .cuerpo-seccion3-contenedor-letras-titulo{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 32px;
         font-weight: 700;
@@ -84,7 +85,7 @@
     }
 
     .cuerpo-seccion3-contenedor-letras-titulo-descripcion{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 14px;
         font-weight: 400;

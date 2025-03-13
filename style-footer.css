@@ -2,8 +2,7 @@
 
 .pie{
     margin-top: 20px;
-    width: 100%;
-    background-color:#857978 ;
+    width: 100%; ;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -24,18 +23,18 @@
 }
 
 .columna h2 {
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 700;
     margin-bottom: 0;
 }
 
 .columna p {
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 16;
+    font-weight: 300;
     margin-bottom: 0;
 }
 
@@ -62,7 +61,7 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        background-color: #331B3B;
+        background-color: #284974;
     }
 
     .columna{
@@ -71,6 +70,14 @@
         justify-content: center;
         align-items: center;
         width: 190px;
+    }
+
+    .columna h2{
+        color: white;
+    }
+
+    .columna p{
+        color: white;
     }
 
     .columna1{

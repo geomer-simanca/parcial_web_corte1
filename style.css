@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #a31717;
+    background-color: #8EADD5;
 }
 
 *{
@@ -32,17 +32,17 @@ body{
 }
 
 .contenedor-encabezado-titulo{
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 1.5vw;
     font-weight: 700;
-    margin-left: 50px;
+    margin-left: 40px;
 
 }
 
 .contenedor-encabezado-navegacion a{
     text-decoration: none;
-    color: white;
+    color: #272D38;
     margin-left: 40px;
     font-family: "Inter", sans-serif;
     font-size: 1.1vw;
@@ -64,7 +64,7 @@ body{
     }
 
     .contenedor-encabezado-titulo{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 14px;
         font-weight: 700;

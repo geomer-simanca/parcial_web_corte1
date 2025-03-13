@@ -19,7 +19,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #ADA7A7;
     border-radius: 20px;
 
 }
@@ -39,7 +38,7 @@
 }
 
 .cuerpo-seccion5-contenedor-letras-titulo{
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 4vw;
     font-weight: 700;
@@ -49,7 +48,7 @@
 }
 
 .cuerpo-seccion5-contenedor-letras-descripcion{
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 1.3vw;
     font-weight: 200;
@@ -62,7 +61,7 @@
     align-self: flex-start;
     width: 30%;
     padding: 15px;
-    background-color: #A31717;
+    background-color: transparent;
     border-radius: 8px;
     border: none;
     color: white;
@@ -78,7 +77,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #331B3B;
         border-radius: 20px;
     
     }
@@ -99,7 +97,7 @@
     }
     
     .cuerpo-seccion5-contenedor-letras-titulo{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 32px;
         font-weight: 700;
@@ -111,7 +109,7 @@
     }
     
     .cuerpo-seccion5-contenedor-letras-descripcion{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 16px;
         font-weight: 200;
@@ -127,7 +125,7 @@
         width: 167px;
         height: 49px;
         padding: 15px;
-        background-color: #000000;
+        background-color: #272D38;
         border-radius: 8px;
         border: none;
         color: white;

@@ -33,17 +33,18 @@
 }
 
 .cuerpo-seccion1-contenedor-letras-titulo{
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 4vw;
     font-weight: 700;
-    line-height: 1;
+    line-height: 100%;
     margin-bottom: 0;
+    text-shadow: #00000040 0px 0px 10px;
     
 }
 
 .cuerpo-seccion1-contenedor-letras-titulo-descripcion{
-    color: white;
+    color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 1.3vw;
     font-weight: 300;
@@ -57,7 +58,7 @@
     width: 30%;
     padding: 10px;
 
-    background-color: #3F3434;
+    background-color: transparent;
     color: white;
     border: none;
     border-radius: 8px;
@@ -95,7 +96,7 @@
     }
 
     .cuerpo-seccion1-contenedor-letras-titulo{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 40px;
         text-align: center;
@@ -106,7 +107,7 @@
     }
 
     .cuerpo-seccion1-contenedor-letras-titulo-descripcion{
-        color: white;
+        color: #272D38;
         font-family: "Inter", sans-serif;
         font-size: 16px;
         text-align: center;
@@ -122,7 +123,7 @@
         height: 35px;
         padding: 10px;
     
-        background-color: #000000;
+        background-color: #272D38;
         color: white;
         border: none;
         border-radius: 8px;
