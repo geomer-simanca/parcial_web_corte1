@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Skranji:wght@400;700&family=Varela+Round&display=swap');
+
+.pie{
+    margin-top: 20px;
+    width: 100%;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-contenedor{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+}
+
+.columna h2 {
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.columna p {
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.columna1{
+    margin-bottom: 85px;
+}
+
+.columna1-content {
+    text-transform: capitalize;
+    max-width: 200px;
+    line-height: 1.5;
+}
+
+.pie-contenedor-creditos{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+        position: relative;
+        min-width: 0;
+    }
+
+    .pie{
+        margin-top: 50px; /* Reducido para evitar superposición */
+        width: 100%;
+        height: auto; /* Cambiado a auto para adaptarse al contenido */
+        padding-top: 20px; /* Espacio superior dentro del footer */
+    }
+    
+    .pie-contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #284974;
+        padding: 30px 0; /* Ajustado el padding vertical */
+    }
+
+    .columna{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 190px;
+        margin-bottom: 10px; /* Reducido para evitar espacios excesivos */
+    }
+
+    .columna h2{
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .columna p{
+        color: white;
+    }
+
+    .columna1{
+        margin-bottom: 30px; /* Ajustado */
+        padding-top: 30px; /* Espaciado desde arriba */
+    }
+
+    .columna1 h2 {
+        margin-bottom: 30px; /* Espacio después del título Digital Agency */
+    }
+
+    .columna1 p{
+        text-align: center;
+    }
+
+    .columna1-content {
+        text-transform: capitalize;
+        max-width: none;
+        font-family: Inter;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 170%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .pie-contenedor-creditos{
+        display: block;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-top: 20px;
+        margin-bottom: 3.5px;
+    }
+}

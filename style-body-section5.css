@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Skranji:wght@400;700&family=Varela+Round&display=swap');
+
+.cuerpo-seccion5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px; /* Reducido para estar más cerca de la sección anterior */
+    padding: 1px;
+}
+
+.cuerpo-seccion5-contenedor{
+    width: 75%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cuerpo-seccion5-contenedor-imagen{
+    width: 40%;
+}
+
+.cuerpo-seccion5-contenedor-letras{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cuerpo-seccion5-contenedor-letras-titulo{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 2.8vw;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    /* Añadimos esta propiedad para controlar el salto de línea */
+    display: inline-block;
+}
+
+/* Añadimos contenido específico después de "the" para forzar un salto de línea */
+.cuerpo-seccion5-contenedor-letras-titulo::after {
+    content: "";
+    display: block;
+}
+
+.cuerpo-seccion5-contenedor-letras-descripcion{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.5px;
+    letter-spacing: 0%;
+    margin-top: 0px;
+}
+
+.cuerpo-seccion5-contenedor-letras-boton{
+    text-transform: uppercase;
+    align-self: flex-start;
+    width: 167px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+@media (max-width: 600px) {
+    .cuerpo-seccion5-contenedor{
+        width: 95%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .cuerpo-seccion5-contenedor-imagen{
+        display: none;
+    }
+
+    .cuerpo-seccion5-contenedor-letras{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-titulo{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 0;
+        text-align: center;
+        width: 310px;
+        margin-bottom: 13px;
+    }
+    
+    /*deshabilitar el salto de línea forzado para mobile */
+    .cuerpo-seccion5-contenedor-letras-titulo::after {
+        content: none;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-descripcion{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.5px;
+        letter-spacing: 0%;
+        margin-top: 0;
+        text-align: center;
+        width: 310px;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-boton{
+        text-transform: uppercase;
+        align-self: center;
+        width: 167px;
+        height: 49px;
+        padding: 15px;
+        background-color: #272D38;
+        border-radius: 8px;
+        border: none;
+        color: #CFDCED;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
