@@ -16,11 +16,12 @@
 .cuerpo-seccion2-letras{
     color: #CFDCED;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
     font-weight: 300;
     line-height: 1;
     margin-top: 0;
+    margin-bottom: 31px;
     font-family: Inter;
     letter-spacing: 0%;
     text-transform: capitalize;
@@ -44,8 +45,9 @@
         color: #667085;
         font-family: Inter;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 100%;
+        margin-bottom: 12px;
     }
     
 

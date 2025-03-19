@@ -68,9 +68,8 @@
     border: none;
     border-radius: 8px;
     font-family: "Inter", sans-serif;
-    font-size: 1.3vw;
-    font-weight: 400;
-
+    font-size: 1.1vw;
+    font-weight: 500;
 }
 
 .cuerpo-seccion1-contenedor-imagen{
@@ -79,6 +78,13 @@
 }
 
 @media (max-width: 600px) {
+
+    @media (max-width: 600px) {
+    .cuerpo-seccion1 {
+        margin-top: 30px; 
+    }
+}
+
     .cuerpo-seccion1-contenedor{
         width: 95%;
         /* border: 1px solid black; */
@@ -101,17 +107,16 @@
     .cuerpo-seccion1-contenedor-letras-titulo{
         color: #272D38;
         text-align: center;
-        line-height: 1;
-        letter-spacing: 0%;
+        letter-spacing: 1px;
         margin-bottom: 0;
         text-transform: capitalize;
         text-shadow: none;
         -webkit-text-stroke: none;
         
         font-family: Inter;
-        font-weight: 420;
-        font-size: 40px;
-        line-height: 100%;
+        font-weight: 457;
+        font-size: 43px;
+        line-height: 45px;
         vertical-align: middle;
         text-transform: capitalize;
     }
@@ -124,8 +129,8 @@
         margin-top: 0;
         
         font-family: Inter;
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: 430;
+        font-size: 17px;
         line-height: 27.5px;
         letter-spacing: 0%;
         text-align: center;
@@ -157,6 +162,7 @@
         line-height: 1;
         letter-spacing: 0%;
         text-transform: uppercase;
+        margin-bottom: 28px;
     }
 
     .cuerpo-seccion1-contenedor-imagen{

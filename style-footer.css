@@ -24,15 +24,15 @@
 .columna h2 {
     color: #272D38;
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .columna p {
     color: #272D38;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     margin-bottom: 8px;
 }
@@ -82,29 +82,31 @@
         justify-content: center;
         align-items: center;
         width: 190px;
-        margin-bottom: 10px; /* Reducido para evitar espacios excesivos */
+        margin-bottom: 10px; 
     }
 
     .columna h2{
         color: white;
-        margin-bottom: 15px;
+        margin-bottom: 11px;
     }
 
     .columna p{
         color: white;
+        font-weight: 200;
     }
 
     .columna1{
-        margin-bottom: 30px; /* Ajustado */
-        padding-top: 30px; /* Espaciado desde arriba */
+        margin-bottom: 30px; 
+        padding-top: 30px; /* espaciado desde arriba */
     }
 
     .columna1 h2 {
-        margin-bottom: 30px; /* Espacio después del título Digital Agency */
+        margin-bottom: 15px; /* espacio después del título Digital Agency */
     }
 
     .columna1 p{
         text-align: center;
+        font-weight: 200;
     }
 
     .columna1-content {
@@ -123,9 +125,9 @@
         display: block;
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: 100;
-        margin-top: 20px;
-        margin-bottom: 3.5px;
+        margin-top: 30px;
+        margin-bottom: -10px;
     }
 }

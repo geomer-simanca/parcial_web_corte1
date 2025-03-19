@@ -35,7 +35,7 @@
     color: #272D38;
     font-family: "Inter", sans-serif;
     font-size: 3vw;
-    font-weight: 700;
+    font-weight: 750;
     line-height: 1;
     margin-bottom: 0;
 }
@@ -57,8 +57,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        padding: 0 15px;  /* Añadimos padding lateral para centrar mejor */
+        gap: 40px;
+        padding: 0 15px;  /* añadimos padding lateral para centrar mejor */
+        margin-top: 60px;
     }
 
     .cuerpo-seccion3-contenedor-letras{
@@ -72,10 +73,10 @@
     .cuerpo-seccion3-contenedor-letras-titulo{
         color: #272D38;
         font-family: "Inter", sans-serif;
-        font-size: 32px;
+        font-size: 38px;
         font-weight: 700;
         line-height: 1;
-        margin-bottom: 0;
+        margin-bottom: 12px;
         text-align: center;
         width: 100%;  /* Asegura que ocupe todo el ancho disponible */
     }
@@ -83,17 +84,17 @@
     .cuerpo-seccion3-contenedor-letras-titulo-descripcion{
         color: #272D38;
         font-family: "Inter", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 415;
         line-height: 27.5px;
         margin-top: 0;
         text-align: center;
         text-transform: capitalize;
         width: 100%;  /* Se ajusta al 100% del ancho para mejor centrado */
-        max-width: 350px;  /* Limita el ancho máximo para que coincida con la imagen */
+        max-width: 650px;  /* Limita el ancho máximo para que coincida con la imagen */
     }
 
     .cuerpo-seccion3-contenedor-imagen{
-        width: 95%;
+        width: 96%;
     }
 }
