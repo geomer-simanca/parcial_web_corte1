@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Skranji:wght@400;700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hind+Vadodara:wght@300;400;500;600;700&family=Inter:wght@100..900&family=Skranji:wght@400;700&family=Varela+Round&display=swap');
+
+/* ====================== ESTILOS REGULARES ====================== */
+/* ======= HERO SECTION (SECCION 1) ======= */
+.cuerpo-seccion1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.cuerpo-seccion1-contenedor{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuerpo-seccion1-contenedor-letras{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuerpo-seccion1-contenedor-letras-titulo{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 1%;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px #272D38;
+}
+
+.cuerpo-seccion1-contenedor-letras-titulo-descripcion{
+    color: #272D38;
+    font-weight: 300;
+    line-height: 27.5px;
+    margin-top: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.cuerpo-seccion1-contenedor-letras-titulo-boton{
+    text-transform: uppercase;
+    align-self: flex-start;
+    width: 30%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.cuerpo-seccion1-contenedor-imagen{
+    width: 40%;
+}
+
+/* ======= COMPANIES SECTION (SECCION 2) ======= */
+.cuerpo-seccion2{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.cuerpo-seccion2-logos{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.cuerpo-seccion2-letras{
+    color: #CFDCED;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 31px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+/* ======= CUSTOM & PLUGIN DEVELOPMENT SECTION (SECCION 3) ======= */
+.cuerpo-seccion3{
+    width: 100%;
+    padding: 10px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo-seccion3-contenedor{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuerpo-seccion3-contenedor-imagen{
+    width: 35%;
+}
+
+.cuerpo-seccion3-contenedor-letras{
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cuerpo-seccion3-contenedor-letras-titulo{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: 750;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.cuerpo-seccion3-contenedor-letras-titulo-descripcion{
+    color: #272D38;
+    width: 392px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-top: 0;
+}
+
+/* ======= BRANDING & DESIGN SYSTEM SECTION (SECCION 4) ======= */
+.cuerpo-seccion4{
+    width: 100%;
+    padding: 10px;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo-seccion4-contenedor{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuerpo-seccion4-contenedor-letras-titulo{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.cuerpo-seccion4-contenedor-cajas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    gap: 20px;
+}
+
+.caja{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.caja-logo{
+    width: 100%;
+}
+
+.caja-logo-cuadro{
+    width: 50px;
+    height: 47.78px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vh;
+    margin-top: 2vh;
+    margin-bottom: -0.8vh;
+}
+
+.caja-logo-cuadro-1{
+    background-color: #FFDED4;
+}
+
+.caja-logo-cuadro-2{
+    background-color: #FFEED4;
+}
+
+.caja-logo-cuadro-3{
+    background-color: #D4F0FF;
+}
+
+.caja-letras-titulo {
+    color: #331B3B;
+    font-family: "Hind Vadodara", Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 137%;
+    letter-spacing: 0.055em;
+    font-weight: 1000px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 1vh;
+}
+
+.caja-letras-descripcion{
+    margin-top: 60px;
+    color: #331B3BA8;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-left: 1vh;
+}
+
+/* ======= CONTACT SECTION (SECCION 5)*/
+.cuerpo-seccion5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 1px;
+}
+
+.cuerpo-seccion5-contenedor{
+    width: 75%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cuerpo-seccion5-contenedor-imagen{
+    width: 40%;
+}
+
+.cuerpo-seccion5-contenedor-letras{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cuerpo-seccion5-contenedor-letras-titulo{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-size: 2.8vw;
+    font-weight: 750;
+    line-height: 1;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cuerpo-seccion5-contenedor-letras-titulo::after {
+    content: "";
+    display: block;
+}
+
+.cuerpo-seccion5-contenedor-letras-descripcion{
+    color: #272D38;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.5px;
+    letter-spacing: 0%;
+    margin-top: 0px;
+}
+
+.cuerpo-seccion5-contenedor-letras-boton {
+    width: 167px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 450;
+    line-height: 1;
+    text-transform: uppercase;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*            MEDIA QUERIES            */
+@media (max-width: 600px) {
+    /*               HERO SECTION (SECCION 1)            */
+    .cuerpo-seccion1 {
+        margin-top: 30px; 
+    }
+
+    .cuerpo-seccion1-contenedor{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cuerpo-seccion1-contenedor-letras{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuerpo-seccion1-contenedor-letras-titulo{
+        color: #272D38;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        text-transform: capitalize;
+        text-shadow: none;
+        -webkit-text-stroke: none;
+        font-family: Inter;
+        font-weight: 457;
+        font-size: 43px;
+        line-height: 45px;
+        vertical-align: middle;
+        text-transform: capitalize;
+    }
+
+    .cuerpo-seccion1-contenedor-letras-titulo-descripcion{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 0;
+        font-family: Inter;
+        font-weight: 430;
+        font-size: 17px;
+        line-height: 27.5px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .cuerpo-seccion1-contenedor-letras-titulo-boton {
+        align-self: center;
+        text-transform: uppercase;
+        width: 150px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #272D38;
+        color: #CFDCED;
+        border: none;
+        border-radius: 8px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 550;
+        line-height: 1;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+    }
+
+    .cuerpo-seccion1-contenedor-imagen{
+        width: 95%;
+    }
+
+    /* ======= COMPANIES SECTION (SECCION 2) ======= */
+    .cuerpo-seccion2 {
+        margin-top: 120px;
+        padding: 0;
+    }
+
+    .cuerpo-seccion2-letras{
+        color: #667085;
+        font-family: Inter;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 100%;
+        margin-bottom: 12px;
+    }
+    
+    .cuerpo-seccion2-logos{
+        width: 100%;
+        margin-top: 3vh;
+    }
+
+    .cuerpo-seccion2-logos img{
+        height: 28px;
+    }
+
+    /* ======= CUSTOM & PLUGIN DEVELOPMENT SECTION (SECCION 3) ======= */
+    .cuerpo-seccion3-contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 0 15px;
+        margin-top: 60px;
+    }
+
+    .cuerpo-seccion3-contenedor-letras{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuerpo-seccion3-contenedor-letras-titulo{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 12px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cuerpo-seccion3-contenedor-letras-titulo-descripcion{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 415;
+        line-height: 27.5px;
+        margin-top: 0;
+        text-align: center;
+        text-transform: capitalize;
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .cuerpo-seccion3-contenedor-imagen{
+        width: 96%;
+    }
+
+    /* ======= BRANDING & DESIGN SYSTEM SECTION (SECCION 4) ======= */
+    .cuerpo-seccion4-contenedor{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cuerpo-seccion4-contenedor-letras-titulo{
+        font-size: 32px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .cuerpo-seccion4-contenedor-cajas{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    .caja-3{
+        display: none;
+    }
+
+    /* ======= CONTACT SECTION (SECCION 5) ======= */
+    .cuerpo-seccion5-contenedor{
+        width: 95%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .cuerpo-seccion5-contenedor-imagen{
+        display: none;
+    }
+
+    .cuerpo-seccion5-contenedor-letras{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-titulo{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 0;
+        text-align: center;
+        width: 310px;
+        margin-bottom: 13px;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-titulo::after {
+        content: none;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-descripcion{
+        color: #272D38;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.5px;
+        letter-spacing: 0%;
+        margin-top: 0;
+        text-align: center;
+        width: 310px;
+    }
+    
+    .cuerpo-seccion5-contenedor-letras-boton{
+        text-transform: uppercase;
+        align-self: center;
+        width: 167px;
+        height: 51px;
+        padding: 15px;
+        background-color: #272D38;
+        border-radius: 8px;
+        border: none;
+        color: #CFDCED;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
